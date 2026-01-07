@@ -4,12 +4,12 @@ from st_supabase_connection import SupabaseConnection
 
 # 1. Inicializar conexión
 # Usamos el conector oficial de Streamlit para Supabase
-conn = st.connection("supabase", type=SupabaseConnection)
+#conn = st.connection("supabase", type=SupabaseConnection)
 
 # Cliente para operaciones avanzadas como subir fotos
-url = st.secrets["SUPABASE_URL"]
-key = st.secrets["SUPABASE_KEY"]
-supabase: Client = create_client(url, key)
+#url = st.secrets["SUPABASE_URL"]
+#key = st.secrets["SUPABASE_KEY"]
+#supabase: Client = create_client(url, key)
 
 st.title("🍻 Drink-In: El Strava de las Cañas")
 
